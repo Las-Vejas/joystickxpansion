@@ -1,5 +1,4 @@
-# For PCBs designed using KiCad: https://www.kicad.org/
-# Format documentation: https://kicad.org/help/file-formats/
+target
 
 # Temporary files
 *.000
@@ -21,6 +20,7 @@ fp-info-cache
 
 # Netlist files (exported from Eeschema)
 *.net
+netlist.ipc
 
 # Autorouter files (exported from Pcbnew)
 *.dsn
@@ -29,3 +29,5 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+fabrication-toolkit-options.json
