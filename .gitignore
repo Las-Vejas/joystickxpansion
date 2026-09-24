@@ -29,6 +29,6 @@ netlist.ipc
 
 # Exported BOM files
 *.xml
-*.csv
+
 
 fabrication-toolkit-options.json
